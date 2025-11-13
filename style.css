@@ -43,7 +43,7 @@ body{
 	color: #0078ff;
 }
 
-/* Hero Section*/
+/* Hero */
 .hero{
 	text-align: center;
 	padding: 100px 20px;
@@ -76,6 +76,7 @@ body{
 	color: white;
 }
 
+
 /* Footer */
 footer{
 	background: #0A1172;
@@ -101,4 +102,20 @@ footer{
 
 .footer-links a:hover{
 	text-decoration: underline;
+}
+
+.partners-container {
+  display: flex; /* Para maging flex container */
+  justify-content: center; /* I-center horizontally */
+  gap: 20px; /* Space sa pagitan ng cards */
+  flex-wrap: wrap; /* Para bumaba kung maliit ang screen */
+  padding: 20px;
+}
+
+.partner-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  text-align: center; /* Para ang text at image nasa center ng card */
 }
